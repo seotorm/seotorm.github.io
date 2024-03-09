@@ -1,11 +1,12 @@
 ---
-layout: post
+layout: default
 title: Ruby Version Up in macOS
+nav_order: 3
 ---
 # Ruby Version Up in macOS
 ## Homebrew 설치
-[Homebrew]는 macOS용 패키지 관리 프로그램.
-설치 방법은 [Homebrew Site](https://brew.sh/) 참조
+Homebrew는 macOS용 패키지 관리 프로그램.
+설치 방법은 [Homebrew Site] 참조
 
 ## Homebrew 로 rbenv 설치
 ```shell
@@ -54,3 +55,6 @@ eval "$(rbenv init - zsh)"
 `.zshrc` 수정 후 터미널을 새로 실행한 다음 설치 버전을 확인한다.
 
 (끝)
+
+---
+[Homebrew Site]: https://brew.sh/
